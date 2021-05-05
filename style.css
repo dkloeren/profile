@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,500;1,100;1,200;1,500&family=Freckle+Face&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Freckle Face', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+body {
+  background-color: #fcecdd;
+}
+
+p {
+ text-align: justify;
+ color: #2f5d62;
+ font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 {
+  color: #ff6701;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+  color: #2f5d62
+}
+
+a {
+  color: #ffb037;
+  text-decoration: none;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#introduction {
+  font-family: 'Acme', sans-serif;
+  font-style: 'lighter'
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-rounded {
+  border-radius: 20%;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 2px solid #ffc288;
+  border: none;
+  box-shadow: 2px 2px 30px rgb(232, 216, 201);
+}
+
+.card-rounded {
+  border-radius: 50px;
+}
+
+ul.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.list-text-left > li {
+  text-align: left
+}
+
+.fab {
+  font-size: 30px
+}
+
+i.fab:hover {
+  color: rgb(160, 110, 30);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
